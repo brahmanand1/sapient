@@ -1,0 +1,23 @@
+<main>
+    <section id="filter">
+        <div id="filter">
+         <button id="gridBTN" (click)="isGrid = false"><span class="glyphicon glyphicon-th-list"></span></button>
+         <button id="listBTN" (click)="isGrid = true"><span class="glyphicon glyphicon-th"></span></button>
+        <select name="" id="" (change)="filterDetacted(rateFilter.value)" #rateFilter>
+        <option value="asc">Product : Low To High</option>
+        <option value="desc">Product : Hight To Low</option>
+        </select>
+        </div>
+    </section>
+    <section id="productView" [ngClass]="isGrid ? 'grid' : 'list' " >
+        <div class="card" *ngFor="let product of products">
+            <img src="../assets/img_avatar.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h5><b>Name : {{product.pName}}  Price : {{product.pPrice}}</b></h5>
+                
+            </div>
+        </div>
+
+    </section>
+   
+</main>

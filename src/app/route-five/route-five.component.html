@@ -1,0 +1,28 @@
+<main>
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <!-- <th [column]="name" [students]="students" (sortedStudent)="getSortedData($event)" appSorting *ngFor="let column of ">{{columns}}</th> -->
+            <th [column]="name" [students]="students" (sortedStudent)="getSortedData($event)" appSorting>{{columns[0]}}</th>
+            <th [column]="class" [students]="students" (sortedStudent)="getSortedData($event)" appSorting> {{columns[1]}}</th>
+            <th [column]="section" [students]="students" (sortedStudent)="getSortedData($event)" appSorting>{{columns[2]}}</th>
+            <th [column]="sub1" [students]="students" (sortedStudent)="getSortedData($event)" appSorting>{{columns[3]}}</th>
+            <th [column]="sub2" [students]="students" (sortedStudent)="getSortedData($event)" appSorting>{{columns[4]}}</th> 
+            <th [column]="sub3" [students]="students" (sortedStudent)="getSortedData($event)" appSorting>{{columns[5]}}</th>
+            <!-- <th >{{columns}}</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+           
+            <td>{{student.Name}}</td>
+            <td>{{student.Class}}</td>
+            <td>{{student.Section}}</td>
+            <td>{{student.Sub1}}</td>
+            <td>{{student.Sub2}}</td>
+            <td>{{student.Sub3}}</td>
+          </tr>
+          
+        </tbody>
+      </table>
+</main>

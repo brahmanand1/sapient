@@ -1,0 +1,21 @@
+
+<main>
+    <section id="timer">
+          <div id="timer">
+              <app-display-timer [time]="time" #displayChild></app-display-timer>
+            </div>
+          <div id="reset">
+            <app-reset-timer (sendTime)="getTime($event)" (startTimer)="initiateTimer($event)" (resetAll)="resetAll()"></app-reset-timer>
+          </div>
+    </section>
+    <section id="timer">
+        <div class="commonAlign">
+            <app-logs-timer #logChild></app-logs-timer>
+        </div>
+        <div class="commonAlign">
+          <app-track-timer #trackChild></app-track-timer>
+        </div>
+
+    </section>
+    <!-- <input type="button" value="startTimer" (click)="startTimer()"> -->
+</main>

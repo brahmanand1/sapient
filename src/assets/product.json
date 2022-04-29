@@ -1,0 +1,102 @@
+{
+    "product" :[
+        {
+            "pID": 1,
+            "pName": "p1",
+            "pPrice": 100
+          },{
+            "pID": 1,
+            "pName": "p2",
+            "pPrice": 200
+          },{
+            "pID": 1,
+            "pName": "p3",
+            "pPrice": 300
+          },{
+            "pID": 1,
+            "pName": "pp5",
+            "pPrice": 12
+          },{
+            "pID": 1,
+            "pName": "p9",
+            "pPrice": 208
+          },{
+            "pID": 1,
+            "pName": "p10",
+            "pPrice": 400
+          }, {
+            "pID": 1,
+            "pName": "p123",
+            "pPrice": 100
+          }, {
+            "pID": 1,
+            "pName": "p132",
+            "pPrice": 150
+          }, {
+            "pID": 1,
+            "pName": "p1",
+            "pPrice": 100
+          }, {
+            "pID": 1,
+            "pName": "p1",
+            "pPrice": 350
+          }, {
+            "pID": 1,
+            "pName": "p1",
+            "pPrice": 100
+          }, {
+            "pID": 1,
+            "pName": "p1",
+            "pPrice": 200
+          }, {
+            "pID": 1,
+            "pName": "p1",
+            "pPrice": 80
+          }
+    
+],
+
+"students" : [
+  {
+    "Name" : "Brahmanand",
+    "Class" : "BCA",
+    "Section" : "A",
+    "Sub1" : "213",
+    "Sub2" : "233",
+    "Sub3" : "3243"
+  },
+  {
+    "Name" : "Anand",
+    "Class" : "BA",
+    "Section" : "H",
+    "Sub1" : "231",
+    "Sub2" : "23",
+    "Sub3" : "32"
+  },
+  {
+    "Name" : "Rahul",
+    "Class" : "MCA",
+    "Section" : "G",
+    "Sub1" : "214",
+    "Sub2" : "23",
+    "Sub3" : "3434"
+  },
+  {
+    "Name" : "Aman",
+    "Class" : "B Tech",
+    "Section" : "Z",
+    "Sub1" : "2143",
+    "Sub2" : "2343",
+    "Sub3" : "3342"
+  }, 
+  {
+    "Name" : "Honey",
+    "Class" : "PHD",
+    "Section" : "K",
+    "Sub1" : "2431",
+    "Sub2" : "723",
+    "Sub3" : "322"
+  }
+]
+
+}

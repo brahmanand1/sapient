@@ -1,0 +1,29 @@
+main{
+    border: solid black 5px;
+    width: 100%;
+    height: 100%;
+}
+section#timer{
+    display: flex;
+    justify-content: space-between;
+}
+div#timer{
+    border: solid black 2px;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+div#reset{
+    border: solid black 2px;
+    width: 60%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.commonAlign{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+}
